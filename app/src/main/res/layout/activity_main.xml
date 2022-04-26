@@ -19,7 +19,6 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/bloodshare"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_centerHorizontal="true"
@@ -50,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="27dp"
                 android:layout_marginEnd="27dp"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/white"
                 android:inputType="textPersonName" />
 
             <TextView
@@ -70,7 +69,7 @@
                 android:layout_below="@id/ln_username"
                 android:layout_marginStart="27dp"
                 android:layout_marginEnd="27dp"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/white"
                 android:inputType="textPersonName" />
 
             <android.widget.Button
@@ -126,9 +125,7 @@
                 android:layout_marginStart="105dp"
                 android:gravity="center_vertical"
                 android:text="CONNECT WITH FACEBOOK"
-                android:textColor="@color/white"
-
-                />
+                android:textColor="@color/white" />
 
         </RelativeLayout>
 
@@ -158,17 +155,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <androidx.constraintlayout.helper.widget.Flow
-        android:id="@+id/flow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
-
-    <androidx.constraintlayout.helper.widget.Layer
-        android:id="@+id/layer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

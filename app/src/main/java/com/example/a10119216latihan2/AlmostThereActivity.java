@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import java.util.Objects;
+
 public class AlmostThereActivity extends AppCompatActivity {
     Button verifyBtn;
 
@@ -13,6 +15,7 @@ public class AlmostThereActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_almost_there);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         verifyBtn = findViewById(R.id.verify);
 

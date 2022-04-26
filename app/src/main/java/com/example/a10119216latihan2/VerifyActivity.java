@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import java.util.Objects;
+
 public class VerifyActivity extends AppCompatActivity {
     Button sendBtn;
 
@@ -13,6 +15,7 @@ public class VerifyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verify);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         sendBtn = findViewById(R.id.btn_send);
 

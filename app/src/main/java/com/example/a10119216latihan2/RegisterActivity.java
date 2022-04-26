@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import java.util.Objects;
+
 public class RegisterActivity extends AppCompatActivity {
     Button regButton;
 
@@ -14,6 +16,7 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         regButton = findViewById(R.id.register2_btn);
 
