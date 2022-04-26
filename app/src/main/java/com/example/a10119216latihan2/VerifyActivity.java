@@ -25,3 +25,8 @@ public class VerifyActivity extends AppCompatActivity {
         });
     }
 }
+
+//NIM    : 10119216-->
+//Nama   : Muhammad Syarifuddin Rahiman-->
+//Kelas  : IF-6-->
+//Tanggal Pengerjaan : 26-04-2022-->
